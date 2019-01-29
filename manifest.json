@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Navigate to build job",
+  "short_name": "Build Job Nav",
+  "description": "Navigate to the CI build box job for the selected module",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/search.png"
+  },
+  "background": {"page": "background.html"}
+}
